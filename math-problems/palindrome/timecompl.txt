@@ -1,0 +1,35 @@
+d = number of digits
+
+--------------------------------
+APPROACH 1: FULL REVERSE (PURE MATH)
+--------------------------------
+Logic:
+- Reverse the entire number using modulo and division
+- Compare reversed number with original
+
+Loop:
+- Loop runs d times (one iteration per digit)
+
+Time Complexity:
+- O(d)
+
+Space Complexity:
+- O(1)
+
+--------------------------------
+APPROACH 2: HALF REVERSE (OPTIMIZED)
+--------------------------------
+Logic:
+- Reverse only half of the digits
+- Stop when reversed number >= remaining number
+- Compare both halves
+
+Loop:
+- Loop runs approximately d/2 times
+
+Time Complexity:
+- O(d)   (since d/2 → O(d))
+
+Space Complexity:
+- O(1)
+

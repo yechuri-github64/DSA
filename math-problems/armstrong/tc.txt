@@ -1,0 +1,12 @@
+--------------------------------
+ARMSTRONG NUMBER
+--------------------------------
+Approach 1 (Direct power):
+- Time Complexity  : O(d)
+- Space Complexity : O(1)
+
+Approach 2 (Precompute powers):
+- Time Complexity  : O(d)
+- Space Complexity : O(1)
+  (uses constant extra space of size 10)
+

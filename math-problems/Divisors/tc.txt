@@ -1,0 +1,13 @@
+--------------------------------
+DIVISORS
+--------------------------------
+Approach 1 (1 to n):
+- Time Complexity  : O(n)
+- Space Complexity : O(k)
+
+Approach 2 (1 to √n):
+- Time Complexity  : O(√n)
+- Space Complexity : O(k)
+
+where k = number of divisors of n
+

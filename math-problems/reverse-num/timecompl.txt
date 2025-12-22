@@ -1,0 +1,28 @@
+d = number of digits
+
+--------------------------------
+NORMAL APPROACH (string +=)
+--------------------------------
+- Loop runs d times
+- Each `+=` copies the string → O(d)
+
+Time Complexity  : O(d²)
+Space Complexity : O(d)
+
+--------------------------------
+APPROACH 1 (list + join)
+--------------------------------
+- Loop runs d times → O(d)
+- join() runs once → O(d)
+
+Time Complexity  : O(d)
+Space Complexity : O(d)
+
+--------------------------------
+BETTER APPROACH (pure math)
+--------------------------------
+- Loop runs d times
+
+Time Complexity  : O(d)
+Space Complexity : O(1)
+
