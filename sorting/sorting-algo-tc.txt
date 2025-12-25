@@ -1,0 +1,141 @@
+==============================
+SORTING ALGORITHMS
+TIME & SPACE COMPLEXITY
+==============================
+
+1) Selection Sort
+-----------------
+Best Case     : O(n²)
+Average Case  : O(n²)
+Worst Case    : O(n²)
+Space         : O(1)
+Stable        : No
+In-place      : Yes
+
+Reason:
+- Always scans the unsorted part to find the minimum element
+- Number of comparisons is fixed irrespective of input order
+
+--------------------------------------------------
+
+2) Bubble Sort
+--------------
+Best Case     : O(n)        (with optimization / early exit)
+Average Case  : O(n²)
+Worst Case    : O(n²)
+Space         : O(1)
+Stable        : Yes
+In-place      : Yes
+
+Reason:
+- Repeatedly swaps adjacent elements
+- Optimized bubble sort stops early if array is already sorted
+
+--------------------------------------------------
+
+3) Insertion Sort
+-----------------
+Best Case     : O(n)
+Average Case  : O(n²)
+Worst Case    : O(n²)
+Space         : O(1)
+Stable        : Yes
+In-place      : Yes
+
+Reason:
+- Inserts elements into the correct position in the sorted part
+- Performs best on nearly sorted arrays
+
+--------------------------------------------------
+
+4) Merge Sort
+-------------
+Best Case     : O(n log n)
+Average Case  : O(n log n)
+Worst Case    : O(n log n)
+Space         : O(n)
+Stable        : Yes
+In-place      : No
+
+Reason:
+- Divide and conquer algorithm
+- Always divides array into halves
+
+--------------------------------------------------
+
+5) Quick Sort
+-------------
+Best Case     : O(n log n)
+Average Case  : O(n log n)
+Worst Case    : O(n²)
+Space         : O(log n)    (recursive stack)
+Stable        : No
+In-place      : Yes
+
+Reason:
+- Worst case occurs when pivot is smallest or largest element
+- Randomized pivot reduces worst-case probability
+
+--------------------------------------------------
+
+6) Heap Sort
+------------
+Best Case     : O(n log n)
+Average Case  : O(n log n)
+Worst Case    : O(n log n)
+Space         : O(1)
+Stable        : No
+In-place      : Yes
+
+Reason:
+- Uses heap data structure
+- Heapify operation takes O(log n)
+
+--------------------------------------------------
+
+7) Counting Sort
+----------------
+Best Case     : O(n + k)
+Average Case  : O(n + k)
+Worst Case    : O(n + k)
+Space         : O(k)
+Stable        : Yes
+In-place      : No
+
+Note:
+- k = range of input values
+- Works only for non-negative integers
+
+--------------------------------------------------
+
+8) Radix Sort
+-------------
+Best Case     : O(nk)
+Average Case  : O(nk)
+Worst Case    : O(nk)
+Space         : O(n + k)
+Stable        : Yes
+In-place      : No
+
+Note:
+- k = number of digits
+- Uses counting sort as a subroutine
+
+--------------------------------------------------
+
+9) Bucket Sort
+--------------
+Best Case     : O(n + k)
+Average Case  : O(n + k)
+Worst Case    : O(n²)
+Space         : O(n)
+Stable        : Depends on internal sort
+In-place      : No
+
+Note:
+- Best used when input is uniformly distributed
+
+==============================
+END
+==============================
+
