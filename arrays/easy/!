@@ -1,0 +1,11 @@
+def main_logic(arr):
+    xorr = 0
+
+    for i in arr:
+        xorr ^= i
+
+    return xorr
+
+if __name__ == "__main__":
+    arr = list(map(int, input().split()))
+    print(main_logic(arr))
